@@ -1,0 +1,21 @@
+<?php
+$day = "Sunday";
+
+switch ($day) {
+    case "Saturday":
+    case "Sunday":
+        echo "Weekend";
+        break;
+
+    case "Monday":
+    case "Tuesday":
+    case "Wednesday":
+    case "Thursday":
+    case "Friday":
+        echo "Weekday";
+        break;
+
+    default:
+        echo "Invalid day";
+}
+?>
