@@ -1,0 +1,9 @@
+<?php
+$num = 25;
+
+if ($num >= 10 && $num <= 50) {
+    echo "Number is between 10 and 50";
+} else {
+    echo "Number is outside the range";
+}
+?>
